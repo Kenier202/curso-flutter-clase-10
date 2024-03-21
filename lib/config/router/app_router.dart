@@ -59,7 +59,7 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/Prueba1Riverpod',
       name: RiverPod1.name,
-      builder: (context, state) => const RiverPod1(),
+      builder: (context, state) => RiverPod1(),
     ),
   ],
 );
